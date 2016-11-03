@@ -37,7 +37,7 @@ guaranteed to work in future versions of MAAS.
 
 If you have not yet created an admin user, you will see a message prompting you to do so:
 
-![Create admin user](create_admin_user.png)
+![Create admin user](../media/create_admin_user.png)
 
 ## Zones
 
@@ -93,6 +93,24 @@ things can still only be done with the CLI.
 
     maas --help
 
+Additional commands are available to manage other aspects of MAAS:
+
+* maas
+
+* maas-dhcp-helper
+
+* maas-provision
+
+* maas-region
+
+* maas-cli
+
+* maas-generate-winrm-cert
+
+* maas-rack
+
+* maas-region-admin
+
 ## Enable DHCP
 
 You won't get far without DHCP since it is required in order to make PXE work,
@@ -100,7 +118,7 @@ which, in turn, is necessary to introduce your systems to MAAS.
 
 Choose a VLAN by clicking on the VLAN "tag" in the Network tab, and choose "Provide DHCP" from the "Take Action" dropdown.
 
-![Provide DHCP on tagged VLAN](enable_dhcp.jpg)
+![Provide DHCP on tagged VLAN](../media/enable_dhcp.png)
 
 
 ## Users and SSH keys
