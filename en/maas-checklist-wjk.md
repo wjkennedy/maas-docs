@@ -145,7 +145,7 @@ A KVM virtual machine can be created via the cli with the virsh tools, or with a
 ####CLI
 The CLI method uses the 'virt-install' tool provided by the libvirt-bin package. This example will provision a KVM virtual machine node suitable for Commissioning with MAAS. Note: The network used by the node should be the same network interface known to KVM, e.g., ***virbr0*** 
 
-    virt-install
+    virt-install --name kvm1 --ram 500 --disk path=/var/lib/libvirt/images/kvm1.img,size=5 --network network:virbr0 --accelerate --pxe
      
 ####Virt Manager
 The virt-manager GUI can be used to quickly create and graphically manage a virtual machine node.
