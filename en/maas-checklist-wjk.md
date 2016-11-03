@@ -1,5 +1,9 @@
 Title: Installation and Configuration Checklist
 
+# William's notes
+Building upon the checklist document, I felt I needed to provide some additional details and capture my own notes.
+
+I may submit a pull request against a future revision of this doc. Nothing I did here is in the bug list.
 
 # Installation and Configuration Checklist
 
